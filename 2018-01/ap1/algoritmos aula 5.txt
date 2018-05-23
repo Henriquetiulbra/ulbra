@@ -1,0 +1,148 @@
+
+Henrique Silveira Scheffer
+
+
+algoritmo "Questão 1"
+var
+
+numero1 :inteiro
+ 
+inicio
+
+escreva("Digite um número: ")
+leia(numero1)
+
+se (numero1 >= 100) E (numero1 <= 1000) entao
+   escreva("Você ficou entre os números 100 e 1000")
+senao
+   escreva("Você não ficou entre os números 100 e 1000")
+fimse
+
+
+fimalgoritmo
+
+
+
+algoritmo "questão 2"
+var
+
+salario, reajuste1, reajuste2, reajuste3 :real
+cargo :caracter
+
+inicio
+
+escreva("Digite o seu salário: ")
+leia(salario)
+escreval("Digite sua função exatamente como está ao lado. tecnico, gerente, outro cargo ")
+leia(cargo)
+
+  se (cargo = "tecnico") entao
+     reajuste1 <- (salario * 50/100) + salario
+     escreva("Você é tecnico e seu reajuste salarial de 50% fica: ",reajuste1)
+  fimse
+
+  se (cargo = "gerente") entao
+     reajuste2 <- (salario * 30/100) + salario
+     escreva("Você é gerente e seu reajuste salarial de 30% fica: ",reajuste2)
+  fimse
+
+  se (cargo = "outro cargo") entao
+     reajuste3 <- (salario * 20/100) + salario
+     escreva("Você é outro cargo e seu reajuste salarial de 20% fica: ",reajuste3)
+  senao
+     escreva("Esse cargo não existe em nossa empresa.")
+  fimse
+
+
+fimalgoritmo
+
+
+algoritmo "questão 3"
+var
+ numero, metade, dobro:real
+inicio
+escreva("Digite um número: ")
+leia(numero)
+
+se (numero > 30) entao
+   metade <- numero / 2
+   escreva("O número passou de 30, então a metade dele é: ",metade)
+senao
+   dobro <- numero * 2
+     escreva("O número não passou de 30, então o dobro dele é: ",dobro)
+fimse
+
+
+fimalgoritmo
+
+
+algoritmo "questão 4"
+var
+   n1, n2, n3, soma :inteiro
+inicio
+
+escreva("Digite o primeiro número: ")
+leia(n1)
+escreva("Digite o segundo número: ")
+leia(n2)
+escreva("Digite o terceiro número: ")
+leia(n3)
+
+soma <- n1+n2+n3
+
+se (soma > 50) entao
+   escreva("A soma é maior que 50")
+fimse
+
+fimalgoritmo
+
+
+
+
+algoritmo "questão 5"
+var
+   n1,n2, resultado :inteiro
+inicio
+escreva("Digite um número: ")
+leia(n1)
+escreva("Digite outro número: ")
+leia(n2)
+
+resultado <- n1+n2
+
+se (resultado > 20) entao
+   resultado <- resultado + 8
+   escreva("A soma é maior que 20, então foi feita uma adição de +8 ao número, ficando um total de: ",resultado)
+fimse
+
+se (resultado <=  20) entao
+   resultado <- resultado - 5
+   escreva("A soma é menor que 20, então foi feita a subtração de -5 ao número, ficando um total de: ",resultado)
+fimse
+
+fimalgoritmo
+
+
+
+
+algoritmo "questão 6"
+var
+   nome, sexo :caracter
+   idade: inteiro
+inicio
+escreva("Digite o seu nome: ")
+leia(nome)
+escreva("Digite o seu sexo (masculino ou feminino): ")
+leia(sexo)
+Escreva("Digite sua idade: ")
+leia(idade)
+
+   se (sexo = "feminino") E (idade<25) entao
+      escreva("Aceita!")
+   senao
+      escreva("Não aceita!")
+   fimse
+
+
+
+fimalgoritmo

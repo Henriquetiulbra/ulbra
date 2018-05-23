@@ -1,0 +1,209 @@
+Henrique Silveira Scheffer
+
+
+algoritmo "questão 1"
+var
+  CD: Inteiro
+  HT, VH, Salario: Real
+inicio
+  Escreva ("Digite o código do funcionário: ")
+  Leia (CD)
+  Escreva ("Digite quantas horas o funcionário trabalhou no mês: ")
+  Leia (HT)
+  Escreva ("Digite quanto o funcionário recebe por hora: ")
+  Leia (VH)
+  Salario <- HT * VH
+  Escreva ("O funcionário irá receber : R$ ",Salario)
+fimalgoritmo
+
+
+
+
+algoritmo "questão 2"
+var
+peca1, Qpeca1,Vupeca1, peca2, Qpeca2,Vupeca2, Tpeca1, Tpeca2, total: real
+inicio
+
+Escreva ("Digte o codigo da peça 1: ")
+leia(peca1)
+Escreva ("Digite quantas peças você comprou: ")
+leia(Qpeca1)
+Escreva ("Digite o valor Unitario de cada peça: ")
+leia(Vupeca1)
+Tpeca1 <- Qpeca1 * Vupeca1
+Escreval("O valor da total da peça 1 é de: ",Tpeca1)
+Escreval("")
+Escreva ("Digte o codigo da peça 2: ")
+leia(peca2)
+Escreva ("Digite quantas peças você comprou: ")
+leia(Qpeca2)
+Escreva ("Digite o valor Unitario de cada peça: ")
+leia(Vupeca2)
+Tpeca2 <- Qpeca2 * Vupeca2
+Escreval ("O valor total da peça 2 é de: ",Tpeca2)
+total <- Tpeca1 + Tpeca2
+Escreval("")
+Escreva ("O valor total das duas peças é de: ",total)
+
+fimalgoritmo
+
+
+
+algoritmo "questão 3"
+var
+n1,n2,x:real
+inicio
+ Escreval("Digite o valor do número 1: ")
+ leia(n1)
+ Escreval("Digite o valor do número 2: ")
+ leia(n2)
+ x <- n1+n2
+ Escreval ("O valor de X é: ", x)
+fimalgoritmo
+
+
+
+
+algoritmo "questão 4"
+var
+ letraA, letraB, s,a,m: Inteiro
+ d:real
+inicio
+      Escreval("Digite o valor da Letra A, OBS: Número Inteiro ")
+      leia(letraA)
+      Escreval("Digite o valor da Letra B, OBS: Número Inteiro ")
+      leia(letraB)
+      a <- letraA + letraB
+      s <- letraA - letraB
+      m <- letraA * letraB
+      d <- letraA / letraB
+      Escreval (" A soma da letra (A) mais a letra (B) é de: ", a)
+      Escreval (" A subtração da letra (A) mais a letra (B) é de: ", s)
+      Escreval (" A multiplicação da letra (A) mais a letra (B) é de: ", m)
+      Escreval (" A divisão da letra (A) mais a letra (B) é de: ", d)
+fimalgoritmo
+
+
+
+
+algoritmo "questão 5"
+var
+n1,n2,n3, media:real
+inicio
+     escreval("Digite o primeiro número: ")
+     leia(n1)
+     escreval("Digite o segundo número: ")
+     leia(n2)
+     escreval("Digite o terceiro número: ")
+     leia(n3)
+     media <- (n1+n2+n3) / 3
+     Escreval("A média desses 3 valores é de: ",media)
+fimalgoritmo
+
+
+algoritmo "questão 6"
+var
+base, altura, total:real
+inicio
+     Escreval ("Digite a Base do seu triângulo: ")
+     leia(base)
+     Escreval ("Digite a altura do seu triângulo: ")
+     leia(altura)
+     total <- base * altura
+     Escreval("A area do seu triângulo é de: ",total)
+fimalgoritmo
+
+
+algoritmo "questão 7"
+var
+num :real
+inicio
+
+Escreva("Digite o número ")
+leia(num)
+num <- num ^ 2
+Escreva(num)
+fimalgoritmo
+
+
+
+
+algoritmo "questão 8"
+var
+NRO_COELHOS, CUSTO: real
+inicio
+Escreva("Numero de coelhos que você deseja comprar ")
+leia(NRO_COELHOS)
+CUSTO <- (NRO_COELHOS * 0.70) / 18+10
+Escreva("O valor da compra dos coelhos é: ", CUSTO)
+fimalgoritmo
+
+
+
+algoritmo "questão 9"
+var
+PrecoCusto, PrecoVenda, lucro :real
+inicio
+
+
+Escreva("Digite o Preço de Custo: ")
+leia(PrecoCusto)
+Escreva("Digite o Preço de Venda: ")
+leia(PrecoVenda)
+lucro <- PrecoVenda - PrecoCusto
+Escreva(" O lucro do vendedor é de: ",lucro)
+fimalgoritmo
+
+
+algoritmo "questão 10"
+var
+ProdQtd, ProdVal, TotalPgto :real
+inicio
+Escreva("Digite aqui o valor do produto ")
+leia(ProdVal)
+Escreva("Digite aqui a quantidade do produto: ")
+leia(ProdQtd)
+TotalPgto <- ProdVal * ProdQtd
+Escreva("O total para ser efetuado o pagamento é de: ",TotalPgto)
+
+
+
+
+fimalgoritmo
+
+
+
+
+algoritmo "questão 11"
+var
+N1, N2, ValTotal :inteiro
+inicio
+Escreva("Digite o primeiro número ")
+leia(N1)
+Escreva("Digite o segundo número ")
+leia(N2)
+
+ValTotal <- N2 DIV N1
+Escreva(ValTotal)
+fimalgoritmo
+
+
+
+algoritmo "questão 12"
+var
+N1, N2, ValTotal :inteiro
+inicio
+Escreva("Digite o primeiro número ")
+leia(N1)
+Escreva("Digite o segundo número ")
+leia(N2)
+
+ValTotal <- N2 DIV N1
+Escreva("O valor inteiro da divisão é: ",ValTotal)
+fimalgoritmo
+
+
+
+
+
+

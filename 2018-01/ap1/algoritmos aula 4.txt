@@ -1,0 +1,145 @@
+algoritmo "média ponderada Q1"
+var
+n1,n2,n3,p1,p2,p3, media :real
+
+inicio
+
+escreva("Digite a nota 1: ")
+leia(n1)
+escreva("Digite o peso 1: ")
+leia(p1)
+escreva("Digite a nota 2 e seu peso: ")
+leia(n2)
+escreva("Digite o peso 2: ")
+leia(p2)
+escreva("Digite a nota 3 e seu peso: ")
+leia(n3)
+escreva("Digite o peso 3: ")
+leia(p3)
+
+media <- (n1*p1+n2*p2+n3*p3) / (p1+p2+p3)
+
+escreva(" Sua media ponderada é de: ", media:2:2)
+
+fimalgoritmo
+
+
+
+
+algoritmo "salarío Q2"
+var
+salario, porcent, valorAumento :real
+
+inicio
+
+escreva("Digite o seu salario: ")
+leia(salario)
+porcent <- salario * (25/100)
+valorAumento <- salario + porcent
+escreva("Seu salario com 25% de aumento é de: ",valorAumento)
+
+
+fimalgoritmo
+
+
+
+
+algoritmo "desconto Q3"
+var
+preco, desconto,porcent, valorFinal :real
+
+inicio
+escreva("Digite o preço do produto: ")
+leia(preco)
+escreva("Digite o valor do desconto: ")
+leia(desconto)
+porcent <- preco * (desconto/100)
+valorFinal <- preco - porcent
+escreva("O valor do produto com desconto é de: ",valorFinal)
+
+
+
+fimalgoritmo
+
+
+
+algoritmo "salarío Q4"
+var
+   salario, imposto, bonus, salarioTotal : real
+inicio
+
+escreva("Digite seu salario: ")
+leia(salario)
+bonus <- salario * (5/100)
+imposto <- salario * (7/100)
+salarioTotal <- salario + bonus - imposto
+escreva("O seu salario com gratificação de 5% e uma retirada de 7% referente ao imposto é de: ",salarioTotal)
+
+fimalgoritmo
+
+
+algoritmo "idade Q5"
+var
+    anoNasc, anoAtual, idadeAtual, idadeFutura : inteiro
+inicio
+escreva("Digite o ano que você está: ")
+leia(anoAtual)
+escreva("Digite o ano em que você nasceu: ")
+leia(anoNasc)
+idadeAtual <- anoAtual - anoNasc
+escreval("A sua idade atual é de: ",idadeAtual,"anos")
+idadeFutura <- 2050 - anoNasc
+Escreva("Em 2050 você irá ter: ",idadeFutura," anos")
+fimalgoritmo
+
+
+algoritmo "ração de gatos Q6"
+var
+   racaoKg, grama, consumoGato1, consumoGato2, restoSaco, total :real
+inicio
+
+
+escreva("Digite quantos kg tem o saco de ração: ")
+leia(racaoKg)
+grama <- racaoKg * 1000
+escreva("Digite o cosumo do primeiro gato(em gramas): ")
+leia(consumoGato1)
+escreva("Digite o cosumo do segundo gato(em gramas): ")
+leia(consumoGato2)
+restoSaco <- grama - (consumoGato1 + consumoGato2) * 5
+total <- restoSaco /1000
+Escreva("Sobrou um total de: ",total," em 5 dias")
+fimalgoritmo
+
+
+algoritmo "degraus Q7"
+var
+   altura, alcancar, degraus :real
+inicio
+escreva("Digite a altura de cada degrau: ")
+leia(altura)
+escreva("Digite a altura que você deseja alcançar: ")
+leia(alcancar)
+degraus <- altura * alcancar
+escreva("Você irá alcancar seu objetivo, subindo:",degraus," degraus")
+
+fimalgoritmo
+
+
+algoritmo "quilowatt Q8"
+var
+salario, qtdQuilowatt, valorQuilowatt, desconto, pgtoResidencia, totalPgto: real
+inicio
+escreva("Digite o seu salario: ")
+leia(salario)
+escreva("Digite a quantidade de quilowatt consumida: ")
+leia(qtdQuilowatt)
+
+valorQuilowatt <- salario / 5
+Escreval("O valor do quilowatt é de: ", valorQuilowatt)
+pgtoResidencia <- valorQuilowatt * qtdQuilowatt
+Escreval("O valor pago por esta resdencia é de: ",pgtoResidencia)
+desconto <- pgtoResidencia * (15/100)
+totalPgto <- pgtoResidencia - desconto
+escreval("O valor pago com desconto de 15% é de: ", totalPgto)
+fimalgoritmo
