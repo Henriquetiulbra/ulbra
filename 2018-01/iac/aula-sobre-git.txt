@@ -1,2 +1,3 @@
 aula-sobre-git.txt
-estamos na aula de iac aprendendo sobre git
+estamos na aula de iac aprendendo sobre github e git
+
